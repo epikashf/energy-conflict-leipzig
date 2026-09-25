@@ -1,0 +1,4 @@
+# No external packages needed for the one-year prototype —
+# fetch_corpus.py and search_keywords.py only use Python's standard library
+# (urllib, tarfile, csv, glob). Listed here as a placeholder for when we
+# add pandas/matplotlib for the co-occurrence and visualization steps.

@@ -1,0 +1,12 @@
+# Raw corpus data — never commit. Per the project's private-corpus rule,
+# and because these files are large and easily re-downloaded via fetch_corpus.py
+data/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS junk
+.DS_Store
