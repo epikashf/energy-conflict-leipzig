@@ -22,7 +22,7 @@ is fine.
 
 ---
 
-## Step 1 — Download one year of corpus data
+## Step 1: Download one year of corpus data
 
 ```
 FUNCTION fetch_corpus(year, language="deu", source="news", size="1M"):
@@ -35,7 +35,7 @@ FUNCTION fetch_corpus(year, language="deu", source="news", size="1M"):
     RETURN path to the extracted sentences file
 ```
 
-## Step 2 — Search one year for our keywords
+## Step 2: Search one year for our keywords
 
 ```
 DEFINE keywords = [
@@ -58,7 +58,7 @@ FUNCTION search_keywords(year):
     SAVE all recorded rows to output/hits_<year>.csv
 ```
 
-## Step 3 — Co-occurrence logic (planned, not yet built)
+## Step 3: Co-occurrence logic (planned, not yet built)
 
 Per Alice's guidance: first look at each site individually, then check
 whether sites are mentioned *together*.
@@ -77,14 +77,14 @@ FOR each sentence already flagged as a hit:
 This lets us later ask: are these three conflicts remembered/discussed as
 one connected story, or mostly separately?
 
-## Step 4 — Location filtering (planned, later phase)
+## Step 4: Location filtering (planned, later phase)
 
 Per meeting notes: "every relevant thing is going to have mention of that
 place" — meaning a later refinement should also check that a hit isn't a
 false positive (e.g., "Wyhl" as part of an unrelated proper noun). This is
 noted for a future pass, not part of the one-year prototype.
 
-## Step 5 — Confidence threshold (planned, later phase)
+## Step 5: Confidence threshold (planned, later phase)
 
 Meeting notes mention an "estimated confidence threshold" for keyword
 matches — this likely refers to weighting or filtering hits by how
