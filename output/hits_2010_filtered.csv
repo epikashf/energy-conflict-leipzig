@@ -1,0 +1,3 @@
+year,corpus,sentence_id,site_matches,nuclear_matches,other_matches,sentence_text
+2010,deu_news_2010_1M,465791,wackersdorf,waa,,"Die Situation erinnert mich an die WAA Wackersdorf, als der Protest zu groß wurde, war das Projekt plötzlich gestorben."
+2010,deu_news_2010_1M,817455,wackersdorf,wiederaufbereitungsanlage,,Bürgerkriegsähnliche Schlachten tobten um die Baustellen der Wiederaufbereitungsanlage Wackersdorf und des Kraftwerks Brokdorf.
